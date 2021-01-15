@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
 
     @IBOutlet weak var swoosh: UIImageView!
     @IBOutlet weak var bgImg: UIImageView!
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
-        // to jest wywolywane aby cofnac widoki nazwa funkcji moze byc jaka chcemy wazne aby w nawiassie bylo UIStoryboardSegue. Tak samo nazwa paraetru moze byc dowolna
+        // to jest wywolywane aby cofnac widoki (wrocic do widoku wczsniej) nazwa funkcji moze byc jaka chcemy wazne aby w nawiassie bylo UIStoryboardSegue. Tak samo nazwa paraetru moze byc dowolna
     }
 
 
