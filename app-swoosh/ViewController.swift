@@ -18,6 +18,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
+    
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
+        // to jest wywolywane aby cofnac widoki nazwa funkcji moze byc jaka chcemy wazne aby w nawiassie bylo UIStoryboardSegue. Tak samo nazwa paraetru moze byc dowolna
+    }
 
 
 }
