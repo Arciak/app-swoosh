@@ -125,6 +125,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="GaH-Bi-if9" eventType="touchUpInside" id="BZB-ea-0wh"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="SMR-uI-hmI">
                                 <rect key="frame" x="16" y="154.5" width="343" height="230"/>
@@ -196,6 +199,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="oFa-Tg-0Hf"/>
+                    <connections>
+                        <segue destination="dGH-wK-RHR" kind="show" identifier="skillVCSegue" id="7iA-aE-Llt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S5Q-ok-PSu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="WPL-k4-wg6" userLabel="Exit" sceneMemberID="exit"/>
@@ -293,6 +299,7 @@
                             <constraint firstAttribute="trailing" secondItem="JFP-r6-kIj" secondAttribute="trailing" id="x5v-sy-qrQ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="8XO-zV-Pwv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hp9-Q7-bP0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
