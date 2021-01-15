@@ -80,10 +80,6 @@
                             <constraint firstItem="czo-jN-eNb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z1F-VP-DgY"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="bgImg" destination="cMa-4O-Eck" id="Qy4-K9-YRj"/>
-                        <outlet property="swoosh" destination="czo-jN-eNb" id="2bb-l8-vqZ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
